@@ -1,0 +1,243 @@
+h5 {
+    text-align: center;
+}
+
+.email {
+    color: green;
+}
+
+.nysc {
+    color: green;
+}
+
+.staff {
+    color: green;
+}
+
+.degree {
+    color: green;
+}
+
+.ijmb {
+    color: green
+}
+
+.ssce {
+    color: green;
+}
+
+.jsce {
+    color: green;
+}
+
+.primary {
+    color: green;
+}
+
+.web {
+    color: green;
+}
+
+.data {
+    color: green;
+}
+
+img.picture {
+    border-radius: 50px;
+}
+
+header {
+    grid-area: header;
+    padding: 20px;
+}
+
+article {
+    grid area: content;
+    padding: 20px;
+}
+
+.container {
+
+    dispay: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 100px 50px;
+}
+
+grid-column-gap:25px;
+grid-row-gap:25px;
+grid-template-areas: "header header"
+"content content";
+
+h1 {
+    text-align: center;
+}
+
+
+
+.contact {
+    box-sizing: border-box;
+    border: 2px solid #FF00FF;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background: #E9967A;
+    color: #fff;
+}
+
+.contact h2 {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form.row.col-1 {
+    width: cal(100%);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 200px;
+    font-size: 18px;
+
+}
+
+contact input.text {
+    width: 100%;
+    border: 2px solid #FF00Ff;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 18px;
+    resize: none;
+    height: 20px;
+}
+
+.contact textarea {
+    height: 150px;
+    width: 100%;
+}
+
+.contact input[type="submit"] {
+    border: 2px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    background: #E9967A;
+    color: #fff;
+}
+
+/*.contact form{
+	visibility:hidden;
+	display:none;
+}*/
+.contact.active form {
+    visibility: visible;
+    display: block;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+}
+
+#email:valid {
+    border: 2px solid #008000;
+}
+
+#email:invalid {
+    border: 2px solid #FF0000;
+}
+
+#email + p {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: red;
+
+    opacity: 0;
+    height: 0;
+}
+
+#email.invalid + p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#name:valid {
+    border: 2px solid #008000;
+}
+
+#name:invalid {
+    border: 2px solid #FF0000;
+}
+
+#name + p {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: red;
+
+    opacity: 0;
+    height: 0;
+}
+
+#name.invalid + p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+textarea {
+    width: 100%;
+
+}
+
+#message:valid {
+    border: 2px solid #008000;
+}
+
+#message:invalid {
+    border: 2px solid #FF0000;
+}
+
+#message + p {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: red;
+
+    opacity: 0;
+    height: 0;
+}
+
+#message.invalid + p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+}
